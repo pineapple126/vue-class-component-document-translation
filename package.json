@@ -1,0 +1,25 @@
+{
+  "name": "vue-class-component-document-translation",
+  "version": "1.0.0",
+  "description": "This is a Chinese version after learning Vue Class Component.",
+  "main": "index.js",
+  "author": "pineapple126",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "commit": "cz"
+  },
+  "dependencies": {
+    "commitizen": "^4.2.4"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}

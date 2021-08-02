@@ -1,1 +1,1 @@
-# Vue Class Component Document Translation
+# Vue Class Component 文档翻译

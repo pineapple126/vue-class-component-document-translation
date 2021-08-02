@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "commit": "cz"
+    "commit": "git commit -A && cz"
   },
   "dependencies": {
     "commitizen": "^4.2.4"

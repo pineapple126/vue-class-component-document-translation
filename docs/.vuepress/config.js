@@ -1,7 +1,9 @@
 module.exports = {
   title: 'Vue Class Component 文档翻译',
   description: 'Vue Class Component 的个人学习与记录',
+  head: [['link', { rel: 'icon', href: '/logo.png' }]],
   themeConfig: {
+    repo: 'pineapple126/vue-class-component',
     nav: [
       { text: '教程', link: '/' },
       { text: 'API', link: '/api/' },

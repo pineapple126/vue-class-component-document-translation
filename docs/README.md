@@ -35,6 +35,6 @@ export default class Counter extends Vue {
 
 如这个例子所示，我们可以使用 `@Component` 装饰器来标注 class，从而使用直观且标准的 class 语法来定义组件的 data 和 methods。我们可以简单地用 class 风格组件替换原本的组件定义，因为它与组件定义的普通选项对象风格（ordinary options object style）等效。
 
-使用 class 风格定义组件，您不仅可以更改语法，还可以利用一些 ECMAScript 语言功能，例如类继承和装饰器。Vue 类组件还提供了一个用于 mixin 继承的 `mixins` 功能，以及一个 `createDecorator` 函数来轻松创建自己的装饰器。 
+使用 class 风格定义组件，您不仅可以更改语法，还可以利用一些 ECMAScript 语言功能，例如类继承和装饰器。Vue 类组件还提供了一个用于 mixin 继承的 `mixins` 功能，以及一个 `createDecorator` 函数来轻松创建自己的装饰器。
 
 我们还可以通过 [Vue Property Decorator](https://github.com/kaorun343/vue-property-decorator) 提供的 `@Prop` 和 `@Watch` 装饰器拓展 Vue Class Component 以便在组件中使用其他属性。

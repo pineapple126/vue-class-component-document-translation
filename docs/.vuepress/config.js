@@ -20,22 +20,22 @@ module.exports = {
           title: '综合指南',
           collapsable: false,
           children: [
-            'guild/class-component',
-            'guild/additional-hooks',
-            'guild/custom-decorators',
-            'guild/extend-and-mixins',
-            'guild/caveats'
+            'guide/class-component',
+            'guide/additional-hooks',
+            'guide/custom-decorators',
+            'guide/extend-and-mixins',
+            'guide/caveats'
           ]
         },
         {
           title: '',
           collapsable: false,
           children: [
-            'guild/props-definition',
-            'guild/property-type-declaration',
-            'guild/refs-type-extension',
-            'guild/hooks-auto-complete',
-            'guild/annotate-component-type-in-decorator'
+            'guide/props-definition',
+            'guide/property-type-declaration',
+            'guide/refs-type-extension',
+            'guide/hooks-auto-complete',
+            'guide/annotate-component-type-in-decorator'
           ]
         }
       ],

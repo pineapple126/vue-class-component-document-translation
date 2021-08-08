@@ -10,9 +10,15 @@ $ vue create hello-world
 
 系统会询问你是否使用预设配置。请选择 "Manually select features"：
 
+![vue-cli-1](../assets/vue-cli-1.png)
+
 选中 TypeScript 功能来使用 Vue Class Component。你可以添加其他需要的功能：
 
+![vue-cli-2](../assets/vue-cli-2.png)
+
 输入 `y` 来回答 `Use class-style component syntax?`：
+
+![vue-cli-3](../assets/vue-cli-3.png)
 
 你可以根据自己的喜好回答剩余的问题。在安装结束后，Vue CLI 会创建一个新的安装了 Vue Class Component 的项目目录。
 
